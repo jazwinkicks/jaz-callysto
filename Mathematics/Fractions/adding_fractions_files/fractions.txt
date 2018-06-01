@@ -1,0 +1,108 @@
+## Adding fractions
+
+ * What is a fraction?
+ * Adding fractions
+   * Like adding other things with units
+
+There are two parts to a fraction: the numerator (the top number) and the denominator (the bottom number).
+An example of a fraction is 2/3.
+There are many ways to read this fraction.
+One way is to say "two over three".
+Another way is to say "two thirds".
+
+
+
+Adding fractions is easy, as long as we are adding fractions with the same denominator.
+It is just like adding anything else.
+We all know that two plus three equals five.
+It is also true that two kilometers plus three kilometers equals five kilometers,
+and that two teaspoons of sugar plus three teaspoons of sugar equals five teaspoons of sugar.
+No matter what kind of thing we are adding, two of those things plus three more of those things equals five of those things.
+
+The same idea works for fractions.
+Two thirds plus three thirds equals five thirds, 2/3 + 3/3 = 5/3.
+One fifth plus five fifths equals six fifths, 1/5 + 5/5 = 6/5.
+This is easy to do as long as the denominators are the same.
+
+**Exercises:**
+  * One half plus one half.
+  * Two thirds plus four thirds.
+  * Six tenths plus seven tenths.
+  * 1/2 + 2/2.
+  * 2/4 + 3/4.
+  * 4/6 + 9/6.
+
+
+
+What if our denominators are different?
+What is 1/2 + 1/4?
+Now we are adding different kinds of "things": halves and quarters.
+
+This is just like if we were to try to add two kilometers and three meters.
+The answer is neither five kilometers nor five meters.
+If we want to add two kilometers and three meters, we have to do a conversion.
+2 kilometers is equal to 2000 meters,
+so 2 kilometers plus 3 meters equals 2000 meters plus 3 meters, which equals 2003 meters.
+
+We have to do a conversion when adding fractions with different denominators.
+We have to change the fractions so that they both have the same denominator.
+That way we are adding two of the same type of "thing".
+In the case of 1/2 + 1/4, one half is equal to two quarters.
+One half plus one quarter is the same as two quarters plus one quarter, which makes three quarters.
+
+**Exercises:**
+  * One half plus three quarters.
+  * Two sixths plus two thirds.
+  * 3/10 + 1/5.
+  * 2/3 + 3/12.
+
+
+
+In each of the exercises above, it was possible to rewrite one fraction so that it had the same denominator as the other fraction.
+This is not always easy.
+If we want to add 2/3 + 3/5, we cannot rewrite 2/3 as something over 5.
+Nor can we rewrite 3/5 as something over 3.
+(Actually, it is possible, but the numerator will not be a whole number!)
+Instead, we have to rewrite both fractions.
+
+
+
+## Lowest Common Denominator
+
+What we want to do is rewrite our fractions so that they have the same denominator.
+Here is one way to do it:
+ * Write down a list of fractions that are equal to 2/3
+ * Write down a list of fractions that are equal to 3/5
+ * See if there is a fraction in each list with the same denominator.
+So 2/3 is equal to
+  2/3 = 4/6 = 6/9 = 8/12 = 10/15 = 12/18 = ...
+and 3/5 is equal to
+  3/5 = 6/10 = 9/15 = 12/20 = 15/25 = 18/30 = ...
+
+Both lists have a fraction whose denominator is 15.
+So we can write 2/3 as 10/15 and write 3/5 as 9/15.
+Then
+  2/3 + 3/5 = 10/15 + 9/15 = 19/15
+
+Here is another example.
+Let's add 1/4 and 1/6.
+Here is a list of fractions equal to 1/4
+  1/4 = 2/8 = 3/12 = 4/16 = 5/20 = 6/24 = ...
+and here is a list of fractions equal to 1/6
+  1/6 = 2/12 = 3/18 = 4/24 = 5/30 = 6/36 = ...
+
+Both lists have a fraction whose denominator is 12.
+So we could write 1/4 as 3/12 and write 1/6 as 2/12 to get
+  1/4 + 1/6 = 3/12 + 2/12 = 5/12.
+  
+Both lists *also* have a fraction whose denominator is 24.
+So it is also true that
+  1/4 + 1/6 = 6/24 + 4/24 = 10/24.
+If we made the first list even longer, then both lists would have a fraction over 36.
+
+If we follow this method of rewriting fractions,
+if we make each list long enough,
+we will always find more than one choice of denominator (**Poorly worded**).
+There are infinitely many choices!
+But there is always one choice that is smaller than all the others.
+This is the **lowest common denominator**.
