@@ -33,7 +33,7 @@ class GGBOptions():
 
     def asString(self):
         self.paramsList = list(map(
-            lambda kv: '\"%s\" : %s' % (kv[0], kv[1]),
+            lambda kv: '\"%s\": %s' % (kv[0], kv[1]),
             self.params.items()
         ))
         self.paramsString = ', '.join(self.paramsList)
@@ -252,7 +252,7 @@ class GGBDrawing(GGBOptions):
         display(HTML('<div id=\"%s\"></div>' % self.instanceName))
 
         display(Javascript(
-            'var %s = new GGBApplet({%s}, \"%s\", true); %s.inject(); ' % (self.instanceName, super().asString(), self.instanceName, self.instanceName)
+            'var %s = new GGBApplet({%s}, \"%s\", false); %s.inject(); ' % (self.instanceName, super().asString(), self.instanceName, self.instanceName)
         ))
         return
 
