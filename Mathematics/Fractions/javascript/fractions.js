@@ -168,6 +168,16 @@ function fraction(a, b, x, y) {
 
 
 
+// Representation of the fraction (a + b)/c at the coordinate (x,y).
+// Represents this as a circle cut into c equal-sized wedges.
+// The first a wedges are in one color, and the next b wedges are in another color.
+// These colors can be modified. E.g.
+//
+//    bf = bifraction(1, 2, 3, 100, 100)
+//    bf.fillColor1 = "#ff0000"
+//    bf.fillColor2 = "#0000ff"
+//
+// If (a + b) > c, then several circles (arranged horizontally) are used to represent the fraction.
 function bifraction(a, b, c, x, y) {
     var frac = {};
     frac.numer1 = Number(a);
