@@ -83,12 +83,12 @@ function reset() {
     draw(numer1, denom1, numer2, denom2, 0);
     
     d3.select("#button")
-        .attr("value", "Add")
-        .on("click", animateAdd);
+        .attr("value", "Convert")
+        .on("click", convert);
 }
 
-function divide() {
-    var l = lcm(defaultDenom1, defaultDenom2);
+function convert() {
+    var l = lcm(Number(defaultDenom1), Number(defaultDenom2));
     denom1 = l
     denom2 = l;
     numer1 = defaultNumer1 * l / defaultDenom1;
@@ -99,6 +99,6 @@ function divide() {
         .on("click", animateAdd);
 }
 
-var svg = d3.select("svg");
+var svg = d3.select("#svg_interactive_add");
 
 //reset();
